@@ -2,6 +2,11 @@
     font-family: poppins;
 }
 
+.nav-item :hover {
+    border-bottom: 5px solid ;
+    border-bottom-color: orangered;
+}
+
 .secondbox {
     background-image: url(./Image/Image23.jpg);
     background-repeat: no-repeat;
@@ -115,4 +120,12 @@
 .rightsecondFourthBoximage {
     width: 100%;
     height: 400px;
+}
+
+.hrsection {
+    margin-top: 80px;
+}
+
+#smallbtn {
+    width: 30%;
 }

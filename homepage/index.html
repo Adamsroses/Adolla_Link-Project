@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
         
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,8 +46,12 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Help&nbsp;&nbsp;</a>
                     </li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-outline-warning">Sign in</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                    <a class="pt-2 ps-1 text-decoration-none text-dark" href="#">Sign in&nbsp;&nbsp;</a>
+                    <!-- <a class="nav-item pt-2 ps-1 text-decoration-none text-dark " href="#">Sign in&nbsp;&nbsp;</a> -->
+
+                    <button type="button" class="btn btn-secondary">Add a Property</button>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Dropdown
@@ -74,7 +78,7 @@
         <p class="paragraphFrontSize d-flex justify-content-center text-white">Let’s find a home that’s perfect for you</p>
         <div class="container-fluid d-flex justify-content-center align-items-end">
             <form>
-              <input type="search" class="form-control form-control-lg sticky-top rounded-pill" placeholder="mail an address, neighborhood, city, or Zip code" aria-label="Search">
+              <input type="search" class="form-control form-control-lg rounded-pill" placeholder="mail an address, neighborhood, city, or Zip code" aria-label="Search">
               <button class="searchBtn btn btn-outline-success mt-3 rounded-pill" type="submit">Search</button>
             </form>
         </div>
@@ -128,7 +132,7 @@
 
     <div class="fourthBox">
 
-        <div class="firstFourthBox d-flex">
+        <div class="firstFourthBox d-flex mb-5">
 
             <div class="leftFirstFourthBox">
                 <img class="leftFirstFourthBoximage" src="./Image/Image12.jpg" alt="">
@@ -137,8 +141,8 @@
                 <p><strong class="rightFirstFourthBoxStrong">Need a home loan? Get pre-approved</strong> <br> <span class="rightFirstFourthBoxtext">Find a lender who can offer competitive mortgage rates and help you <br> with pre-approval.</span></p>
                 </p>
 
-                <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-danger btn-lg" type="button">Button</button>
+                <div class="d-grid gap-2 col-6 d-flex justify-content-center m-5">
+                    <button class="btn btn-danger btn-lg rounded-pill" type="button">Get approved now</button>
                   </div>
             </div>
 
@@ -153,11 +157,13 @@
                 </p>
                 </div>
                 
-
-                <form class="leftSecondFourthBoxForm text-align-center">
-                    <input type="search" class="form-control form-control-lg rounded-pill" placeholder="Address, Neighborhood, City, or Zip code" aria-label="Search">
-                    <button class="searchBtn btn btn-outline-success mt-3 rounded-pill" type="submit">Search</button>
-                </form>
+                <div class="container">
+                    <form class="leftSecondFourthBoxForm m-5">
+                        <input type="search" class="form-control form-control-lg rounded-pill d-flex justify-content-center" placeholder="Address, Neighborhood, City, or Zip code" aria-label="Search">
+                        <button class="searchBtn btn btn-outline-success mt-3 rounded-pill" type="submit">Search</button>
+                    </form>
+                </div>
+                
 
             </div>
 
@@ -166,6 +172,25 @@
             </div>
 
         </div>
+
+        <hr class="hrsection">
+            <div class="container" id="hrrealsection">
+                <h2 class="pb-3">Subscribe to our FREE VIP email alerts</h2>
+                <p class="pb-3">Be the first to know about deals and opportunities</p>
+
+                <form>
+                    <div class="row">
+                        <div class="col" id="small">
+                            <input type="text" class="form-control" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="row" id="smallbtn">
+                            <button type="button" class="btn btn-outline-success">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+                
+            </div>
+        <hr>
 
     </div>
     
