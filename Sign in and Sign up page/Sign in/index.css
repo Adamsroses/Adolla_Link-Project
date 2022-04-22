@@ -1,0 +1,13 @@
+.forgotMove {
+    padding-top: 20px;
+}
+
+#signInBtn1:hover {
+    border-bottom: 5px solid ;
+    border-bottom-color: blue;
+}
+
+#signInBtn2:hover {
+    border-bottom: 5px solid ;
+    border-bottom-color: blue;
+}
