@@ -67,3 +67,8 @@ input[type=submit] {
     left: -35px;
     content: "&#10006;";
 }
+
+.nav-item :hover {
+    border-bottom: 5px solid ;
+    border-bottom-color: orangered;
+}

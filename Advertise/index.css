@@ -1,0 +1,8 @@
+* {
+    font-family: poppins;
+}
+
+.nav-item :hover {
+    border-bottom: 5px solid ;
+    border-bottom-color: orangered;
+}

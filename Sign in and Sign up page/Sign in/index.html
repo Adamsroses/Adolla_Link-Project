@@ -12,51 +12,114 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-<div class="container col-lg-4 mt-5">
-    <h2 class="d-flex justify-content-center pb-4">Welcome to Adolla Link</h2>
-    <div>
-        <div class="fs-4" >
-            <a class="text-decoration-none" id="signInBtn1" href="./index.html">Sign in&nbsp;&nbsp;&nbsp;</a>
-            <a class="text-decoration-none" id="signInBtn2" href="./../Sign Up/index.html">New account</a>
-        </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
         
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Buy &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Rent&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sell&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link active" aria-current="page" href="#">Home Loans &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Agent Finder &nbsp;&nbsp;</a>
+                    </li>
+    
+                    <a class="navbar-brand" href="./../../homepage/index.html">&nbsp;&nbsp;&nbsp;&nbsp;<img src="./logo/logo 2.jpeg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Manage Rentals &nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Advertise&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Help&nbsp;&nbsp;</a>
+                    </li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="./../Sign in and Sign up page/Sign in/index.html">
+                        <button type="button" class="btn btn-outline-warning">Sign in</button>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+                    <!-- <a class="nav-item pt-2 ps-1 text-decoration-none text-dark " href="#">Sign in&nbsp;&nbsp;</a> -->
+    
+                    <a href="./../Add a Property/Single Unit/index.html"><button type="button" class="btn btn-secondary">Add a Property</button></a>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+      </nav>
+    
+    <div class="container col-lg-4 mt-5 pt-5">
+        <h2 class="d-flex justify-content-center pb-4">Welcome to Adolla Link</h2>
+        <div>
+            <div class="fs-4" >
+                <a class="text-decoration-none" id="signInBtn1" href="./index.html">Sign in&nbsp;&nbsp;&nbsp;</a>
+                <a class="text-decoration-none" id="signInBtn2" href="./../Sign Up/index.html">New account</a>
+            </div>
+            
+
+            <hr>
+
+            <form>
+                <div class="row mb-3 ">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>&nbsp;&nbsp;&nbsp;
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control fs-5" id="inputEmail3" placeholder="Enter email">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>&nbsp;&nbsp;&nbsp;
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control fs-5" id="inputPassword3" placeholder="Enter password">
+                    </div>
+                </div>
+                <div class="d-grid gap-2 pt-4">
+                    <button type="submit" class="btn btn-primary btn-lg">Sign in</button>
+                </div>
+                
+            </form>
+
+            <a class="forgotMove text-decoration-none fs-5 fw-bold d-flex justify-content-center" href="#">Forgot your password?</a>
+        </div>
 
         <hr>
 
-        <form>
-            <div class="row mb-3 ">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>&nbsp;&nbsp;&nbsp;
-                <div class="col-sm-10">
-                    <input type="email" class="form-control fs-5" id="inputEmail3" placeholder="Enter email">
-                </div>
-            </div>
-            <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>&nbsp;&nbsp;&nbsp;
-                <div class="col-sm-10">
-                    <input type="password" class="form-control fs-5" id="inputPassword3" placeholder="Enter password">
-                </div>
-            </div>
-            <div class="d-grid gap-2 pt-4">
-                <button type="submit" class="btn btn-primary btn-lg">Sign in</button>
-            </div>
-            
-        </form>
+        <p class="d-flex justify-content-center fs-5">Or connect with:</p>
 
-        <a class="forgotMove text-decoration-none fs-5 fw-bold d-flex justify-content-center" href="#">Forgot your password?</a>
+        <div class="d-grid gap-2">
+            <button type="button" class="btn btn-outline-dark mt-3"><img class="pe-5" src="./logo/apple.svg" alt=""> Continue with Apple</button>
+            <button type="button" class="btn btn-outline-primary mt-3"><img class="pe-5" src="./logo/facebook.svg" alt=""> Continue with Facebook</button>
+            <button type="button" class="btn btn-outline-secondary mt-3"><img class="pe-5" src="./logo/google.svg" alt=""> Continue with Google</button>
+        </div>
+        
     </div>
-
-    <hr>
-
-    <p class="d-flex justify-content-center fs-5">Or connect with:</p>
-
-    <div class="d-grid gap-2">
-        <button type="button" class="btn btn-outline-dark mt-3"><img class="pe-5" src="./logo/apple.svg" alt=""> Continue with Apple</button>
-        <button type="button" class="btn btn-outline-primary mt-3"><img class="pe-5" src="./logo/facebook.svg" alt=""> Continue with Facebook</button>
-        <button type="button" class="btn btn-outline-secondary mt-3"><img class="pe-5" src="./logo/google.svg" alt=""> Continue with Google</button>
-    </div>
-    
-</div>
 
 </body>
 </html>

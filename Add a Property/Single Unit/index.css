@@ -1,0 +1,15 @@
+.marginProperty {
+    margin: 50px;
+    background-color: rgb(226, 222, 222);
+    border-radius: 50px;
+    height: 100vh;
+}
+
+.paddingProperty {
+    text-align: center;
+}
+
+.nav-item :hover {
+    border-bottom: 5px solid ;
+    border-bottom-color: orangered;
+}

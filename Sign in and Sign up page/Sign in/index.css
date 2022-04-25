@@ -11,3 +11,8 @@
     border-bottom: 5px solid ;
     border-bottom-color: blue;
 }
+
+.nav-item :hover {
+    border-bottom: 5px solid ;
+    border-bottom-color: orangered;
+}
