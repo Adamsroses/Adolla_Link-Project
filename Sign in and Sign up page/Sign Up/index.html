@@ -25,7 +25,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Rent&nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sell&nbsp;&nbsp;</a>
+                        <a class="nav-link active" aria-current="page" href="./../../Sell/Homepage/Index.html">Sell&nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item"> 
                         <a class="nav-link active" aria-current="page" href="#">Home Loans &nbsp;&nbsp;</a>
@@ -42,20 +42,20 @@
                         <a class="nav-link active" aria-current="page" href="#">Manage Rentals &nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Advertise&nbsp;&nbsp;</a>
+                        <a class="nav-link active" aria-current="page" href="./../../Advertise/homepage/index.html">Advertise&nbsp;&nbsp;</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Help&nbsp;&nbsp;</a>
                     </li>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="./../Sign in and Sign up page/Sign in/index.html">
+                    <a href="./../../Sign in and Sign up page/Sign in/index.html">
                         <button type="button" class="btn btn-outline-warning">Sign in</button>
                     </a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     
                     <!-- <a class="nav-item pt-2 ps-1 text-decoration-none text-dark " href="#">Sign in&nbsp;&nbsp;</a> -->
     
-                    <a href="./../Add a Property/Single Unit/index.html"><button type="button" class="btn btn-secondary">Add a Property</button></a>
+                    <a href="./../../Add a Property/Single Unit/index.html"><button type="button" class="btn btn-secondary">Add a Property</button></a>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Dropdown
@@ -74,28 +74,30 @@
                 </div>
             </div>
         </div>
-      </nav>
+    </nav>
     
-    <div class="container col-lg-4 mt-5" style="padding-top: 100px;">
+    <div  class="container col-lg-4 pt-5 card w-75 mb-5" style="margin-top: 100px; background-color: rgb(217, 218, 219);">
         <h2 class="d-flex justify-content-center pb-4">Welcome to Adolla Link</h2>
-        <div>
-            <div class="fs-4" >
-                <a class="text-decoration-none" id="signInBtn1" href="./../Sign in/index.html">Sign in&nbsp;&nbsp;&nbsp;</a>
-                <a class="text-decoration-none" id="signInBtn2" href="./index.html">New account</a>
-            </div>
-            
 
-            <hr>
 
-            <form>
+        <div class="fs-4 ms-5" >
+            <a class="text-decoration-none" id="signInBtn1" href="./../Sign in/index.html">Sign in&nbsp;&nbsp;&nbsp;</a>
+            <a class="text-decoration-none fw-bold" id="signInBtn2" href="./index.html">New account</a>
+        </div>
+        
+
+        <hr>
+
+        <form action="./../../homepage/index.html">
+            <div style="margin-left: 100px;">
                 <div class="row mb-3 ">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>&nbsp;&nbsp;&nbsp;
+                    <label for="inputEmail3" class="col-sm-2 col-form-label fw-bold fs-5">Email</label>&nbsp;&nbsp;&nbsp;
                     <div class="col-sm-10">
                         <input type="email" class="form-control fs-5" id="inputEmail3" placeholder="Enter email" required>
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>&nbsp;&nbsp;&nbsp;
+                    <label for="inputPassword3" class="col-sm-2 col-form-label fw-bold fs-5">Password</label> &nbsp;&nbsp;&nbsp;
                     <div class="col-sm-10">
                         <!-- <input type="password" class="form-control fs-5" id="inputPassword3" placeholder="Create password"> -->
                         <input type="password" class="form-control fs-5" id="psw inputPassword3" name="psw" placeholder="Create password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, at least 8 or more characters, and at least 1 special character" required>
@@ -108,23 +110,23 @@
                         </div>
                     </div>
                 </div>
-                <a class="text-decoration-none text-dark container" href="">
-                    <div class="toggleField">
 
-                        <div class="list-group">
-                            <label class="list-group-item">
-                              <input class="form-check-input me-1" type="checkbox" value="">
-                              I am a landlord or industry professional <span class="fs-6">(*fill the professional Information)</span> </span>
-                            </label>
-                        </div>
-                    </div>  
-                </a>
+                
+                <div class="toggleField text-decoration-none text-dark container w-75 ms-5" style="background-color: rgb(217, 218, 219);">
 
-                <div class="landlordForm container">
+                    <div class="list-group">
+                        <label class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="">
+                            I am a landlord or industry professional <span class="fs-6">(*fill the professional Information)</span> </span>
+                        </label>
+                    </div>
+                </div>  
+
+                <div class="landlordForm container w-75" style="background-color: rgb(217, 218, 219);">
                     <h3>Professional Information</h3>
 
-                    <form class="row g-5">
-                        <div class="col-md-4 pt-3">
+                    <form>
+                        <div class="pt-3">
                             <label for="" class="form-label"><strong>Professional type</strong></label>
                             <select class="form-select" id="">
                                 <option selected disabled value="0">Select your category</option>
@@ -137,71 +139,125 @@
                                 <option value="7">Home Inspector</option>
                                 <option value="8">Property Manager</option>
                                 <option value="9">Other Real Estate Professional</option>
-                              </select>
+                                </select>
                         </div>
-                        <div class="col-md-4 pt-3">
+                        <div class="pt-3">
                             <label for="" class="form-label"><strong>First name</strong> </label>
                             <input type="text" class="form-control" id="" placeholder="First name" >
                             
                         </div>
 
-                        <div class="col-md-4 pt-3">
+                        <div class="pt-3">
                             <label for="" class="form-label"><strong>Last name</strong> </label>
                             <input type="text" class="form-control" id="" placeholder="Last name">
                             
                         </div>
 
-                        <div class="col-md-4 pt-3">
+                        <div class="pt-3">
                             <label for="validationCustomUsername" class="form-label"><strong>Username</strong> </label>
                             <div class="input-group has-validation">
                                 <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend">
                                 <div class="invalid-feedback">
                                     Please choose a username.
                                 </div>
-                          </div>
+                            </div>
                         </div>
 
-                        <div class="col-md-4 pt-3">
+                        <div class="pt-3">
                             <label for="" class="form-label"><strong>Zip/Postal</strong> </label>
                             <input type="text" class="form-control" id="" placeholder="Zip/Postal">
                             
                         </div>
 
-                        <div class="col-md-3 pt-3">
+                        <div class="pt-3">
                             <label for="" class="form-label"><strong>Phone number</strong> </label>
                             <input type="text" class="form-control" id="" placeholder="+000 000 000 000">
                         </div>
 
-                        <div class="col-12 pt-3">
+                        <div class="pt-3">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                <label class="form-check-label" for="invalidCheck">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck">
+                                <label class="form-check-label pt-1" for="invalidCheck">
                                     Agree to terms and conditions
                                 </label>
                             </div>
                         </div>
-        
                     </form>
                 </div>
-                
-                <input class="my-5" type="submit" value="Submit">
-                
-            </form>
-
-        </div>
+            </div>
+            
+            <a href="./../../homepage/index.html" class="d-flex justify-content-center text-decoration-none"><input class="my-5 w-50" type="submit" value="Submit"></a>
+            
+        </form>
 
         <hr>
 
         <p class="d-flex justify-content-center fs-5">Or connect with:</p>
 
-        <div class="d-grid gap-2">
+        <div class="d-grid gap-2 w-50 mb-5" style="margin-left: 250px;">
             <button type="button" class="btn btn-outline-dark mt-3"><img class="pe-5" src="./logo/apple.svg" alt=""> Continue with Apple</button>
             <button type="button" class="btn btn-outline-primary mt-3"><img class="pe-5" src="./logo/facebook.svg" alt=""> Continue with Facebook</button>
             <button type="button" class="btn btn-outline-secondary mt-3"><img class="pe-5" src="./logo/google.svg" alt=""> Continue with Google</button>
         </div>
         
     </div>
+
+    <section>
+        <img src="./Image/homeHeroLargeBackground-1zF7K9i.svg" alt="">
+    </section>
+
+    
+    <footer style="margin-top: 150px;">
+
+        <section class="d-flex container" style="width: 100%;">
+            <a style="width: 50%;" href="./../homepage/index.html"><img src="./Logo/logo 2.jpeg" alt=""></a>
+
+            <div id="socialIcon" style="padding-left: 300px;" class="d-flex " >
+                <a href="https://www.facebook.com/"><img style="width: 40px;" src="./Logo/facebook.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.twitter.com/"><img style="width: 40px;" src="./Logo/twitter.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/"><img style="width: 40px;" src="./Logo/linkedin.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/"><img style="width: 40px;" src="./Logo/youtube.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com/"><img style="width: 40px;" src="./Logo/instagram.svg" alt=""></a>
+            </div>
+        </section>
+
+        <section class="hoverFooter d-flex" style="width: 30%;">
+            <div class="py-5" style="padding-left: 120px;">
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="./../Advertise/index.html">Advertise</a></p>
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="">Home Loan</a></p>
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="">Agent Finder</a></p>
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="./../Advertise/index.html">Manage Rentals</a></p>
+            </div>
+            <div class="py-5" style="padding-left: 40px;">
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="https://www.trulia.com/">Trulia</a></p>
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="https://www.streeteasy.com/">StreetEasy</a></p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="container d-flex justify-content-center m-5 flex-column">
+            <p class="text-center" style="font-size: 10px;">Adolla Link Group is committed to ensuring digital accessibility for individuals with disabilities.  We are continuously working to <br> improve the accessibility of our web experience for everyone, and  we welcome feedback and accommodation requests. If you wish to report an <br> issue or seek an accommodation.</p>
+
+            <p class="text-center" style="font-size: 12px; color: grey;">Product images are representative of site and mobile applications as of publication date. Site and mobile applications subject to change without notice. <br>
+
+            No NAR membership dues are used to operate or support AdLink.com®. <br>
+                
+            ©1995-2022  NATIONAL ASSOCIATION OF ADOLLA LINK® and Move, Inc. All rights reserved.
+            AdLink.com® is the official site of the National Association of ADOLLA LINK® and is operated by Move, Inc.
+                
+            </p>
+
+            <p class="text-center pt-4" style="font-size: 10px;">For listings in Canada, the trademarks REALTOR®, REALTORS®, and the REALTOR® logo are controlled by The Canadian Real Estate Association (CREA) and <br> identify real estate professionals who are members of CREA.  The trademarks MLS®, Multiple Listing Service® and the associated logos are owned by CREA <br> and identify the quality of services provided by real estate professionals who are members of CREA. Used under license.</p>
+        </section>
+
+        <section>
+            <img class="w-100" src="./Image/Web capture_26-4-2022_95035_127.0.0.1.jpeg" alt="">
+        </section>
+
+    </footer>
+
     <script src="./myScript.js"></script>
 </body>
 </html>
