@@ -1,0 +1,16 @@
+* {
+    font-family: poppins;
+}
+
+.agentFinderHover :hover {
+    text-decoration: underline;
+}
+
+.agentFinder :hover {
+    text-decoration: underline;
+}
+
+.nav-item :hover {
+    border-bottom: 5px solid ;
+    border-bottom-color: orangered;
+}

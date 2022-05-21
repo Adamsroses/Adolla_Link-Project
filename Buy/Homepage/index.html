@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adolla Link</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./myScript.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Buy &nbsp;&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Rent&nbsp;&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./../../Sell/Homepage/Index.html">Sell&nbsp;&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link active" aria-current="page" href="#">Home Loans &nbsp;&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./../../Agent Finder/Agents/index.html">Agent Finder &nbsp;&nbsp;&nbsp;</a>
+                    </li>
+
+                    <a class="navbar-brand" href="./../../homepage/index.html">&nbsp;&nbsp;&nbsp;&nbsp;<img src="./LOGO/logo 2.jpeg" alt="">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./../../Advertise/Industries/index.html">Manage Rentals &nbsp;&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./../../Advertise/homepage/index.html">Advertise&nbsp;&nbsp;</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Help&nbsp;&nbsp;&nbsp;</a>
+                    </li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="./../../Sign in and Sign up page/Sign in/index.html">
+                        <button type="button" class="btn btn-outline-warning">Sign in</button>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <a href="./../../Add a Property/Single Unit/index.html"><button type="button" class="btn btn-secondary">Add a Property</button></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="opacity" style="background-image: url(./image/pexels-vecislavas-popa-1643389.jpg); height: 450px; margin-top: 50px;object-fit: cover; background-repeat: no-repeat; background-size: 100%;">
+        <div style="padding-top: 200px;" class="text-center">
+            <p class="text-white" style="font-size: 45px; font-weight: 500;"><strong>Discover Your New Home</strong></p>
+            <p class="text-primary" style="font-size: 30px; font-weight: 300;">Helping 100 million renters find their perfect fit.</p>
+        </div>
+        
+    </section>
+
+    <section class="container mt-5">
+        <div >
+            <p class="fs-5" style="font-weight:500;">Revise Search Results</p>
+            <div class="">
+                <form class="row gx-3 gy-2 align-items-center d-flex">
+                    <div class="col-sm-2">
+                      <input type="text" class="form-control" id="specificSizeInputName" placeholder="City,State,Zip, or Listing ID#">
+                    </div>
+                    <div class="col-sm-2">
+                        <select class="form-select" id="specificSizeSelect">
+                            <option value="1">25 miles</option>
+                            <option value="2">50 miles</option>
+                            <option value="3">75 miles</option>
+                            <option value="4">100 miles</option>
+                            <option value="5">125 miles</option>
+                            <option value="6">150 miles</option>
+                            <option value="7">175 miles</option>
+                            <option value="8">200 miles</option>
+                            <option selected>400 miles</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <select class="form-select" id="specificSizeSelect">
+                            <option selected>Min Price</option>
+                            <option value="1">$10,000</option>
+                            <option value="1">$20,000</option>
+                            <option value="1">$30,000</option>
+                            <option value="1">$40,000</option>
+                            <option value="1">$50,000</option>
+                            <option value="1">$60,000</option>
+                            <option value="1">$70,000</option>
+                            <option value="1">$80,000</option>
+                            <option value="1">$90,000</option>
+                            <option value="1">$100,000</option>
+                            <option value="1">$110,000</option>
+                            <option value="1">$120,000</option>
+                            <option value="1">$130,000</option>
+                            <option value="1">$140,000</option>
+                            <option value="1">$150,000</option>
+                            <option value="1">$160,000</option>
+                            <option value="1">$170,000</option>
+                            <option value="1">$180,000</option>
+                            <option value="1">$190,000</option>
+                            <option value="1">$200,000</option>
+                            <option value="1">$210,000</option>
+                            <option value="1">$220,000</option>
+                            <option value="1">$230,000</option>
+                            <option value="1">$240,000</option>
+                            <option value="1">$250,000</option>
+                            <option value="1">$260,000</option>
+                            <option value="1">$270,000</option>
+                            <option value="1">$280,000</option>
+                            <option value="1">$290,000</option>
+                            <option value="1">$300,000</option>
+                            <option value="1">$310,000</option>
+                            <option value="1">$320,000</option>
+                            <option value="1">$330,000</option>
+                            <option value="1">$340,000</option>
+                            <option value="1">$350,000</option>
+                            <option value="1">$360,000</option>
+                            <option value="1">$370,000</option>
+                            <option value="1">$380,000</option>
+                            <option value="1">$390,000</option>
+                            <option value="1">$400,000</option>
+                            <option value="1">$410,000</option>
+                            <option value="1">$420,000</option>
+                            <option value="1">$430,000</option>
+                            <option value="1">$440,000</option>
+                            <option value="1">$450,000</option>
+                            <option value="1">$460,000</option>
+                            <option value="1">$470,000</option>
+                            <option value="1">$480,000</option>
+                            <option value="1">$490,000</option>
+                            <option value="1">$500,000</option>
+                            <option value="1">$510,000</option>
+                            <option value="1">$520,000</option>
+                            <option value="1">$530,000</option>
+                            <option value="1">$540,000</option>
+                            <option value="1">$550,000</option>
+                            <option value="1">$560,000</option>
+                            <option value="1">$570,000</option>
+                            <option value="1">$580,000</option>
+                            <option value="1">$590,000</option>
+                            <option value="1">$600,000</option>
+                            <option value="1">$610,000</option>
+                            <option value="1">$620,000</option>
+                            <option value="1">$630,000</option>
+                            <option value="1">$640,000</option>
+                            <option value="1">$650,000</option>
+                            <option value="1">$660,000</option>
+                            <option value="1">$670,000</option>
+                            <option value="1">$680,000</option>
+                            <option value="1">$690,000</option>
+                            <option value="1">$700,000</option>
+                            <option value="1">$710,000</option>
+                            <option value="1">$720,000</option>
+                            <option value="1">$730,000</option>
+                            <option value="1">$740,000</option>
+                            <option value="1">$750,000</option>
+                            <option value="1">$760,000</option>
+                            <option value="1">$770,000</option>
+                            <option value="1">$780,000</option>
+                            <option value="1">$790,000</option>
+                            <option value="1">$800,000</option>
+                            <option value="1">$810,000</option>
+                            <option value="1">$820,000</option>
+                            <option value="1">$830,000</option>
+                            <option value="1">$840,000</option>
+                            <option value="1">$850,000</option>
+                            <option value="1">$860,000</option>
+                            <option value="1">$870,000</option>
+                            <option value="1">$880,000</option>
+                            <option value="1">$890,000</option>
+                            <option value="1">$900,000</option>
+                            <option value="1">$910,000</option>
+                            <option value="1">$920,000</option>
+                            <option value="1">$930,000</option>
+                            <option value="1">$940,000</option>
+                            <option value="1">$950,000</option>
+                            <option value="1">$960,000</option>
+                            <option value="1">$970,000</option>
+                            <option value="1">$980,000</option>
+                            <option value="1">$990,000</option>
+                            <option value="1">$1,000,000</option>
+                            <option value="1">$1,500,000</option>
+                            <option value="1">$2,000,000</option>
+                            <option value="1">$2,500,000</option>
+                            <option value="1">$3,000,000</option>    
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <select class="form-select" id="specificSizeSelect">
+                            <option selected>Max Price</option>
+                            <option value="1">$10,000</option>
+                            <option value="1">$20,000</option>
+                            <option value="1">$30,000</option>
+                            <option value="1">$40,000</option>
+                            <option value="1">$50,000</option>
+                            <option value="1">$60,000</option>
+                            <option value="1">$70,000</option>
+                            <option value="1">$80,000</option>
+                            <option value="1">$90,000</option>
+                            <option value="1">$100,000</option>
+                            <option value="1">$110,000</option>
+                            <option value="1">$120,000</option>
+                            <option value="1">$130,000</option>
+                            <option value="1">$140,000</option>
+                            <option value="1">$150,000</option>
+                            <option value="1">$160,000</option>
+                            <option value="1">$170,000</option>
+                            <option value="1">$180,000</option>
+                            <option value="1">$190,000</option>
+                            <option value="1">$200,000</option>
+                            <option value="1">$210,000</option>
+                            <option value="1">$220,000</option>
+                            <option value="1">$230,000</option>
+                            <option value="1">$240,000</option>
+                            <option value="1">$250,000</option>
+                            <option value="1">$260,000</option>
+                            <option value="1">$270,000</option>
+                            <option value="1">$280,000</option>
+                            <option value="1">$290,000</option>
+                            <option value="1">$300,000</option>
+                            <option value="1">$310,000</option>
+                            <option value="1">$320,000</option>
+                            <option value="1">$330,000</option>
+                            <option value="1">$340,000</option>
+                            <option value="1">$350,000</option>
+                            <option value="1">$360,000</option>
+                            <option value="1">$370,000</option>
+                            <option value="1">$380,000</option>
+                            <option value="1">$390,000</option>
+                            <option value="1">$400,000</option>
+                            <option value="1">$410,000</option>
+                            <option value="1">$420,000</option>
+                            <option value="1">$430,000</option>
+                            <option value="1">$440,000</option>
+                            <option value="1">$450,000</option>
+                            <option value="1">$460,000</option>
+                            <option value="1">$470,000</option>
+                            <option value="1">$480,000</option>
+                            <option value="1">$490,000</option>
+                            <option value="1">$500,000</option>
+                            <option value="1">$510,000</option>
+                            <option value="1">$520,000</option>
+                            <option value="1">$530,000</option>
+                            <option value="1">$540,000</option>
+                            <option value="1">$550,000</option>
+                            <option value="1">$560,000</option>
+                            <option value="1">$570,000</option>
+                            <option value="1">$580,000</option>
+                            <option value="1">$590,000</option>
+                            <option value="1">$600,000</option>
+                            <option value="1">$610,000</option>
+                            <option value="1">$620,000</option>
+                            <option value="1">$630,000</option>
+                            <option value="1">$640,000</option>
+                            <option value="1">$650,000</option>
+                            <option value="1">$660,000</option>
+                            <option value="1">$670,000</option>
+                            <option value="1">$680,000</option>
+                            <option value="1">$690,000</option>
+                            <option value="1">$700,000</option>
+                            <option value="1">$710,000</option>
+                            <option value="1">$720,000</option>
+                            <option value="1">$730,000</option>
+                            <option value="1">$740,000</option>
+                            <option value="1">$750,000</option>
+                            <option value="1">$760,000</option>
+                            <option value="1">$770,000</option>
+                            <option value="1">$780,000</option>
+                            <option value="1">$790,000</option>
+                            <option value="1">$800,000</option>
+                            <option value="1">$810,000</option>
+                            <option value="1">$820,000</option>
+                            <option value="1">$830,000</option>
+                            <option value="1">$840,000</option>
+                            <option value="1">$850,000</option>
+                            <option value="1">$860,000</option>
+                            <option value="1">$870,000</option>
+                            <option value="1">$880,000</option>
+                            <option value="1">$890,000</option>
+                            <option value="1">$900,000</option>
+                            <option value="1">$910,000</option>
+                            <option value="1">$920,000</option>
+                            <option value="1">$930,000</option>
+                            <option value="1">$940,000</option>
+                            <option value="1">$950,000</option>
+                            <option value="1">$960,000</option>
+                            <option value="1">$970,000</option>
+                            <option value="1">$980,000</option>
+                            <option value="1">$990,000</option>
+                            <option value="1">$1,000,000</option>
+                            <option value="1">$1,500,000</option>
+                            <option value="1">$2,000,000</option>
+                            <option value="1">$2,500,000</option>
+                            <option value="1">$3,000,000</option>    
+                            <option value="1">$3,500,000+</option>    
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <select class="form-select" id="specificSizeSelect">
+                          <option selected>Bedrooms</option>
+                          <option value="1">1</option>
+                          <option value="1">2</option>
+                          <option value="1">3</option>
+                          <option value="1">4</option>
+                          <option value="1">5</option>
+                          <option value="1">6</option>
+                          <option value="1">7</option>
+                          <option value="1">8</option>
+                          <option value="1">9</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2">
+                        <select class="form-select" id="specificSizeSelect">
+                          <option selected>Bathrooms</option>
+                          <option value="1">0</option>
+                          <option value="1">0.5</option>
+                          <option value="1">1</option>
+                          <option value="1">1.5</option>
+                          <option value="1">2</option>
+                          <option value="1">2.5</option>
+                          <option value="1">3</option>
+                          <option value="1">3.5</option>
+                          <option value="1">4</option>
+                          <option value="1">4.5</option>
+                          <option value="1">5</option>
+                          <option value="1">5.5</option>
+                          <option value="1">6</option>
+                          <option value="1">6.5</option>
+                          <option value="1">7</option>
+                          <option value="1">7.5</option>
+                          <option value="1">8</option>
+                          <option value="1">8.5</option>
+                          <option value="1">9+</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-sm-2 col-auto mt-3">
+                      <button type="submit" class="btn btn-outline-primary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr class="mt-3">
+    </section>
+
+    <section class="container">
+        <div class="w-100 d-flex">
+            <div style="width: 80%;">
+                <p><strong>982 homes for sale by owner found</strong></p>
+                <p>Show <span><div class="col-sm-1 ms-5"><select class="form-select" id="specificSizeSelect"><option selected>10</option><option value="1">20</option><option value="1">50</option><option value="1">100</option></select></div></span></p>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#106034</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$798,990</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img src="./image/kurexbeachxlot003-100px.jpg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">Hear and see the ocean waves break on the sand, smell the sea air, and feel the gentle breeze as you stand on the deck of your custom built home on the Carolina coast. Build your dream beach house on this lot in Seawatch community located in Kure Beach, North Carolina, 15 minutes south of Wilmington. This lot is the largest in the subdivision with ocean view, private beach and cabana. Imagine</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>106 Seawatch Way</span><br>
+                            <span>Kure Beach, NC 28449</span><br>
+                            <span>Beds: 0 Baths: 0</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#134867 - MAKE BEST OFFER - WILLING TO NEGOTIATE</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$732,600</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img style="height: 100px;" src="./image/06245c8334b717-very-spacious-5-bedrooms-duplex-with-1-bedroom-flat-bq-semi-detached-duplexes-for-sale-victoria-garden-city-lekki-lagos (1).jpg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">Very Spacious 5 Bedrooms Duplex, with 1 Bedroom Flat BQ for Sale at Emerald Housing Estate (also known as Mobil Estate), along Mobil Estate road, close to VGC, Lekki/Ajah, Lagos State.The property sits on a 600 Sqm full plot of land, and can conveniently park up to 10 cars.It is ideal for a family that wants to live in a serene neighbourhood that offers guaranteed 24 hours power supply, treated water, recreation facilities and ample space for children to play & express themselves.Mobil Estate is among the best in Lagos State and can be compared to the likes of VGC, Carlton gate, Nicon town, etc in terms of infrastructure & Facilities.</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>Suite I-61, Road 5</span><br>
+                            <span>Ikota Shopping Complex,, Vgc, Lekki,, Lagos, Nigeria</span><br>
+                            <span>Beds: 0 Baths: 0</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#524225 - NEW YEAR, NEW HOME - RARE KEY WEST BOATING CANAL 3/3 GATED, POOL HOME GEM: 1.6M TAKES IT!!!</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$988,230</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img style="height: 100px; width: 120px; object-fit: cover;" src="./image/06145cfa8414fa-luxurious-and-palatial-5-bedroom-detached-duplex-in-a-prime-location-detached-duplexes-for-sale-lekki-expressway-lekki-.jpg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">AESTHETICALLY DESIGNED, EXQUISITE AND CONTEMPORARY 5 BEDROOM DETACHED DUPLEX FOR SALE.</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>No 2, Akinyemi Close Off Ogunlana Drive Awoyaya, Ibeju-lekki,</span><br>
+                            <span>Ajah, Lagos, Nigeria</span><br>
+                            <span>Beds: 0 Baths: 0</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#192352 - Experience a taste of new island with plenty of acreage</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$625,000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img style="object-fit: cover; height: 100px; width: 120px;" src="./image/0625426f674ece-contemporary-built-and-luxury-finished-5-bedroom-automated-duplex-with-detached-duplexes-for-sale-lekki-phase-2-lekki-l.jpg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">Full automation Home, Beautiful and highly secured estate, 24hrs electricity, 24hrs security, Swimming pool, gym house, Cinema, box room, Study, fully installed air conditioners, 2 Large living rooms, Spacious 5 ensuite bedrooms, walk in closet (Breathtaking master bedroom with balcony/ terrace), Smoke detector, Automated surround sound system, Clean water drinkable water, Led lights, 3 meters high biometric door, rooftop Lounge,Beautifully finished with Spanish porcelain tiles, CCTV cameras, parking space for 8 cars conveniently, Great neighborhood.
+                                Fully fitted kitchen with double door refrigerator, washing machine, microwave, oven, heat extractor,Topnotch lighting system,Excellent resales and rental values</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;"> 
+                            <span>37/41 Lateef Adegboyega Street Off Ago Palace Way,</span><br>
+                            <span>Okota, Lagos, Nigeria</span><br>
+                            <span>Beds: 0 Baths: 0</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#513708 - 4 Bedroom Terraced Duplex For Sale</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$290,000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img style="object-fit: cover; height: 100px; width: 120px;" src="./image/new-terraced-duplexes-for-sale-ikate-elegushi-lekki-lagos.jpg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">We have blocks fully serviced of 3
+                                    bedroom flat and 4 bedroom terrace for sale at
+                                    Ologolo lekki Lagos
+                                    Price for 3 bedroom flat ...68 million
+                                    Price for 4 bedroom terrace...85 million
+                                    Car park...4 cars
+                                    Location....Ikate lekki Lagos
+                                    Title.... Governors consent
+                                    Features... swimming poolgym cctv
+                                    cameras,interlocking.fitted kitchen,security house</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>6 Ola Salami Street, </span><br>
+                            <span>Ologolo lekki Lagos, Nigeria</span><br>
+                            <span>Beds: 0 Baths: 0</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#514657 - Custom Unique Waterfront Home on 3-Sided Point with Views from Rooms-Exceptional!</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$865,000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img src="./image/image-a1579053092-100px.jpg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">Privacy and expansive views surround custom unique waterfront home property on 3-sided point w 606ft. shoreline, pier, and acreage, paved street with 645ft. concrete driveway and 126 trees along the</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>Zwolle, LA 71486</span><br>
+                            <span>Beds: 4 Baths: 3</span><br>
+                            <span>Beds: 0 Baths: 0</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#517057 - CARROLL GARDENS 917-584-5006</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$2,100,000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img src="./image/image-Screenshot (3)1593461068-100px.png" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">Carroll Gardens. CALL OWNER DIRECT 917-584-5006 BACK ON MARKET Twenty ft. wide 2 family townhouse centrally located to all that Carroll Gardens has to offer. Full basement with over 1200 Sq.ft</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>343 Hoyt Street</span><br>
+                            <span>Brooklyn, NY 11231</span><br>
+                            <span>Beds: 5 Baths: 0</span>
+                            <span>Sq.Ft.: 2280</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#516458 - Perfect part time or year round country estate. Just 4 miles outside the charming small town community with easy ride to the beach, airport and All the major interstates</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$1,299,000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img src="./image/image-CD5D2856-07CB-42FE-BC69-174C80006E611627681562-100px.jpeg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">Living at its finest. Sprawling 8500 (+/-)under roof, 6450 sf heated 17 room gated estate. An impressive porte-cochere upon pulling up to the home in the charming community of Loris, SC Just 35</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>2790 Fowler Rd</span><br>
+                            <span>Loris, SC 29569</span><br>
+                            <span>Beds: 4 Baths: 5.5</span>
+                            <span>Sq.Ft.: 9770 sq ft under roof 653</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#512312 - 11.67 acre commercial property between Wasilla and Palmer Alaska</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$2,500,000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img src="./image/image-Begich Circle1561766558-100px.jpg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">11.67 acre commercial property with 340 feet of Palmer-Wasilla Highway frontage. Includes 5 buildings (approximately 16,000 sf total with 21 bedrooms; 20 bathrooms), and all of Begich Circle</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>4700 to 4755 Begich Circle</span><br>
+                            <span>Wasilla, AK 99654</span><br>
+                            <span>Beds: 21 Baths: 15.5</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="d-flex w-100">
+                        <div style="width: 80%;">
+                            <p class="fs-5 fw-bold">Listing ID#528938 - Spectacular Street to Water Lake Washington Waterfront Estate</p>
+                        </div>
+                        <div style="width: 20%;">
+                            <p class="fs-5 fw-bold">$11,995,000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100">
+                        <div class="d-flex" style="width: 80%;">
+                            <div style="width: 20%;">
+                                <img src="./image/image-92ED074A-D766-43EB-A93C-723D1B2B75401643132281-100px.jpeg" alt="">
+                            </div>
+                            <div style="width: 80%;">
+                                <p style="font-size: 12px; margin-right: 100px;">This rare street to waterfront executive estate boasts stunning views, expansive parking for 14 vehicles, a large dock capable of a mega yacht, and is peacefully tucked away from noise and traffic.</p>
+                            </div>
+                        </div>
+                        <div style="width: 20%; font-size: 12px;">
+                            <span>3608 Evergreen Point Road</span><br>
+                            <span>Medina, WA 98039</span><br>
+                            <span>Beds: 7 Baths: 6</span>
+                            <span>Sq.Ft.: 5100</span>
+                            <button class="btn btn-outline-primary mt-3">View Listing Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 20%;">
+                <p style="color: orangered;"><strong>Services</strong> </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <img src="./Image/homeHeroLargeBackground-1zF7K9i.svg" alt="">
+    </section>
+
+    <footer style="margin-top: 150px;">
+
+        <section class="d-flex container" style="width: 100%;">
+            <a style="width: 50%;" href="./../homepage/index.html"><img src="./Logo/logo 2.jpeg" alt=""></a>
+
+            <div id="socialIcon" style="padding-left: 300px;" class="d-flex " >
+                <a href="https://www.facebook.com/"><img style="width: 40px;" src="./Logo/facebook.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.twitter.com/"><img style="width: 40px;" src="./Logo/twitter.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/"><img style="width: 40px;" src="./Logo/linkedin.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/"><img style="width: 40px;" src="./Logo/youtube.svg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com/"><img style="width: 40px;" src="./Logo/instagram.svg" alt=""></a>
+            </div>
+        </section>
+
+        <section class="hoverFooter d-flex" style="width: 30%;">
+            <div class="py-5" style="padding-left: 120px;">
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="./../Advertise/index.html">Advertise</a></p>
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="">Home Loan</a></p>
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="">Agent Finder</a></p>
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="./../Advertise/index.html">Manage Rentals</a></p>
+            </div>
+            <div class="py-5" style="padding-left: 40px;">
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="https://www.trulia.com/">Trulia</a></p>
+                <p><a class="text-decoration-none text-dark fs-6 pt-3" href="https://www.streeteasy.com/">StreetEasy</a></p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="container d-flex justify-content-center my-5 flex-column">
+            <p class="text-center" style="font-size: 10px;">Adolla Link Group is committed to ensuring digital accessibility for individuals with disabilities.  We are continuously working to <br> improve the accessibility of our web experience for everyone, and  we welcome feedback and accommodation requests. If you wish to report an <br> issue or seek an accommodation.</p>
+
+            <p class="text-center" style="font-size: 12px; color: grey;">Product images are representative of site and mobile applications as of publication date. Site and mobile applications subject to change without notice. <br>
+
+            No NAR membership dues are used to operate or support AdLink.com®. <br>
+                
+            ©1995-2022  NATIONAL ASSOCIATION OF ADOLLA LINK® and Move, Inc. All rights reserved.
+            AdLink.com® is the official site of the National Association of ADOLLA LINK® and is operated by Move, Inc.
+                
+            </p>
+
+            <p class="text-center pt-4" style="font-size: 10px;">For listings in Canada, the trademarks REALTOR®, REALTORS®, and the REALTOR® logo are controlled by The Canadian Real Estate Association (CREA) and <br> identify real estate professionals who are members of CREA.  The trademarks MLS®, Multiple Listing Service® and the associated logos are owned by CREA <br> and identify the quality of services provided by real estate professionals who are members of CREA. Used under license.</p>
+        </section>
+
+        <section>
+            <img class="w-100" src="./Image/Web capture_26-4-2022_95035_127.0.0.1.jpeg" alt="">
+        </section>
+
+    </footer>
+</body>  
+</html>
